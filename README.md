@@ -6,6 +6,18 @@ This code allows to **generate synthetic images** of **hands holding objects** a
 
 In addition, hands-only images can also be generated, with hand-poses sampled randomly from the [MANO](http://mano.is.tue.mpg.de) hand pose space.
 
+Examples of rendered images:
+
+| Hands+Objects | Hands |
+|---------------|-------|
+|  ![handobject](assets/readme/images/handobjects.jpg)             |  ![hand](assets/readme/images/hand.jpg)     |
+
+Rendering generates:
+- rgb images
+- 3D ground truth for the hand and objects
+- depth maps
+- segmentation maps
+
 For additional information about the project, see:
 
 - [Project page](https://hassony2.github.io/obman)
