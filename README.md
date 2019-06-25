@@ -10,7 +10,7 @@ Examples of rendered images:
 
 | Hands+Objects | Hands |
 |---------------|-------|
-|  ![handobject](assets/readme/images/handobjects.jpg)             |  ![hand](assets/readme/images/hand.jpg)     |
+| ![handobject](assets/readme/images/handobjects.jpg) | ![hand](assets/readme/images/hand.jpg) |
 
 Rendering generates:
 - rgb images
@@ -21,8 +21,9 @@ Rendering generates:
 For additional information about the project, see:
 
 - [Project page](https://hassony2.github.io/obman)
-- [Dataset repository](https://hassony2.github.io/obman)
-- [Training, evaluation and demo code](https://hassony2.github.io/obman_train)
+- Code
+  - [Dataset repository](https://github.com/hassony2/obman)
+  - [Training, evaluation and demo code](https://github.com/hassony2/obman_train)
 
 
 
