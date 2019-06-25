@@ -186,12 +186,22 @@ obman_render/
 
 ### Hands only
 
-`path/to/blender -noaudio -t 1 -P blender_grasps_sacred.py -- '{"frame_nb": 2, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["white"]}'`
+`path/to/blender -noaudio -t 1 -P blender_grasps_sacred.py -- '{"frame_nb": 10, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["white"]}'`
 
 ### Grasping objects
 
-`path/to/blender -noaudio -t 1 -P blender_hands_sacred.py -- '{"frame_nb": 2, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["white"]}'`
+`path/to/blender -noaudio -t 1 -P blender_hands_sacred.py -- '{"frame_nb": 10, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["white"]}'`
 
+## Full version with image backgrounds
+
+### Hands only
+
+`path/to/blender -noaudio -t 1 -P blender_hands_sacred.py -- '{"frame_nb": 10, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["lsun", "imagenet"], "imagenet_path": "/path/to/imagenet", "lsun_path": "/path/to/lsun"}'`
+
+
+### Grasping objects
+
+`path/to/blender -noaudio -t 1 -P blender_grasps_sacred.py -- '{"frame_nb": 10, "frame_start": 0, "results_root": "datageneration/tmp", "background_datasets": ["lsun", "imagenet"], "imagenet_path": "/path/to/imagenet", "lsun_path": "/path/to/lsun"}'`
 
 # Citations
 
