@@ -1,0 +1,7 @@
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/female_test.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/female_train.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/male_test.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/male_train.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/female_all.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/textures/male_all.txt
+https://lsh.paris.inria.fr/SURREAL/smpl_data/smpl_data.npz
