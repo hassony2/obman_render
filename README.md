@@ -52,7 +52,7 @@ cd obman_render
 
 ### Download hand and object pickle data-structures
 
-#### Download [SURREAL](https://www.di.ens.fr/willow/research/surreal/data/) data
+#### Download [SURREAL](https://www.di.ens.fr/willow/research/surreal/data/) assets
 
 - Go to SURREAL [dataset request page](https://www.di.ens.fr/willow/research/surreal/data/)
 - Create an account, and receive an email with a username and password for data download
