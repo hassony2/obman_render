@@ -144,20 +144,28 @@ Download [LSUN](https://www.yf.io/p/lsun) dataset following the [instructions](h
 
 - Download original images from [here](http://image-net.org/download)
 
-#### Download body+hand textures
+#### Download body+hand textures and grasp information
+
+- Request data on the [ObMan webpage](https://www.di.ens.fr/willow/research/obman/data/)
+
+- Download grasp and texture zips
+
+You should receive two links that will allow you to download `bodywithands.zip` and `shapenet_grasps.zip`.
+
+- Unzip texture zip
 
 ```
 cd assets/textures
-TODO wget ... bodywithands.zip
+mv path/to/downloaded/bodywithands.zip .
 unzip bodywithands.zip
 cd ../..
 ```
 
-#### Unzip the grasp information
+- Unzip the grasp information
 
 ```sh
 cd assets/grasps
-TODO dowload if needed
+mv path/to/downloaded/shapenet_grasps.zip .
 unzip shapenet_grasps.zip
 cd ../../
 ```
