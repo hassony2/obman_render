@@ -22,6 +22,7 @@ For additional information about the project, see:
 
 - [Project page](https://hassony2.github.io/obman)
 - Code
+  - [Robotic grasps generation using MANO](https://github.com/ikalevatykh/mano_grasp)
   - [Dataset repository](https://github.com/hassony2/obman)
   - [Training, evaluation and demo code](https://github.com/hassony2/obman_train)
 
