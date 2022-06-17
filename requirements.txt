@@ -1,6 +1,6 @@
 sacred>=0.7
 pymongo>=3.5
 opencv-python==4.1.1.26
-numpy==1.13
+numpy==1.21.0
 tqdm>=4.30
 git+git://github.com/hassony2/chumpy.git
